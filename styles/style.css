@@ -1,16 +1,39 @@
-body {
-  background: radial-gradient(
+:root {
+  --primary-text: "Nunito", sans-serif;
+  --secondary-text: "Josefin Slab", serif;
+  --background-primary: radial-gradient(
     circle at 10% 20%,
     rgb(246, 187, 187) 0%,
     rgb(249, 219, 217) 90%
   );
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--primary-text);
+  font-weight: bold;
+}
 h1 {
-  font-family: "Montserrat", sans-serif;
-  font-family: "Nunito", sans-serif;
-  font-family: "Roboto Slab", serif;
-  font-size: 72px;
+  font-size: 96px;
 }
 .hero {
   text-align: center;
+  padding: 150px 20px;
+  background: var(--background-primary);
+}
+.hero p {
+  font-family: var(--secondary-text);
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+.hero h2 {
+  font-family: var(--secondary-text);
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
 }
