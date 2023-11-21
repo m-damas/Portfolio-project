@@ -71,7 +71,6 @@ p {
 }
 .content h3 {
   font-size: 24px;
-  margin: 20px 0 0;
   font-family: var(--secondary-text);
 }
 .content p {
@@ -92,7 +91,13 @@ p {
   max-width: 100%;
   border-radius: 4px;
 }
-
+.yoga-image {
+  height: 300px;
+}
+.film-image {
+  border-radius: 4px;
+  max-width: 75%;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
