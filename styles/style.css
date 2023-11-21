@@ -57,19 +57,19 @@ p {
 .project-description {
   padding: 120px 50px;
 }
-.about-section {
+.content-container {
   padding: 150px 20px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--primary-text);
 }
-.about-section-content {
+.content {
   margin: 30px;
 }
 .developer-image {
