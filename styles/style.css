@@ -7,6 +7,7 @@
     rgb(249, 219, 217) 90%
   );
   --main-color: #ac86c6;
+  --secondary-color: rgb(249, 219, 217) 90%;
 }
 
 h1,
@@ -57,6 +58,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 100ms ease-in-out;
 }
 .project-description {
   padding: 120px 50px;
@@ -143,10 +145,10 @@ footer .social-links a {
 }
 footer .social-links a:hover {
   color: white;
-  background: var(--main-color);
+  background: var(--secondary-color);
 }
 footer .contact-box {
-  background: var();
+  background: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
 }
