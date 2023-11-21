@@ -85,11 +85,11 @@ p {
   max-width: 300px;
 }
 .yougurt-image {
-  max-width: 75%;
+  max-width: 65%;
   border-radius: 4px;
 }
 .weather-image {
-  max-width: 500px;
+  max-width: 100%;
   border-radius: 4px;
 }
 
