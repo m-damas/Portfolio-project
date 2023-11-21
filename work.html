@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="description" content="Work page for Melissa Damas. Showcasing work accomplished from the SheCodes workshop.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,24 +27,24 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles/style.css" />
-    <title>Melissa Damas Portfolio</title>
+    <title>Melissa Damas-Work Page</title>
   </head>
   <body>
     <div class="container">
     <nav class="d-flex justify-content-between">     
-        <i class="fa-solid fa-person-chalkboard fa-2x"></i>
+        <i class="fa-solid fa-person-chalkboard fa-2x"  alt="Melissa logo" title="Homepage"></i>
         <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+            </li>
+          <li>
+            <a href="/about.html" title="About page">About</a>
+            </li>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/work.html" itle="Work page">Work</a>
             </li>
           <li>
-            <a href="/about.html">About</a>
-            </li>
-          <li>
-            <a href="/work.html">Work</a>
-            </li>
-          <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact page">Contact</a>
             </li>
         </ul>
       </div>
@@ -57,8 +58,8 @@
           <div class="col-md-6 mb-4">
             <img
               src="images/yogurt.jpg"
-              class="img-fluid mb-3 yougurt-image"
-              alt=""
+              class="img-fluid mb-3 yogurt-image"
+              alt="yogurt-image"
             />
             <h3 class="text-center m-0">Yogurt Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
@@ -68,14 +69,14 @@
             <img
               src="images/weather.png"
               class="img-fluid mb-3 weather-image"
-              alt=""
+              alt="weather-image"
             />
             <h3 class="text-center m-0">Weather Project</h3>
             <p class="text-muted">Built with HTML, CSS, JavaScript and React</p>
           </div>
 
           <div class="col-md-6 mb-4">
-            <img src="images/yoga.jpeg" class="img-fluid mb-3 yoga-image" />
+            <img src="images/yoga.jpeg" class="img-fluid mb-3 yoga-image" alt="yoga-image"/>
             <h3 class="text-center m-0">Yoga Project</h3>
             <p class="text-muted">Built with HTML, CSS, and JavaScript</p>
           </div>
@@ -84,13 +85,45 @@
             <img
               src="images/Filmmaking.png"
               class="img-fluid mb-3 film-image"
-              alt=""
+              alt="film-image"
             />
             <h3 class="text-center m-0">Filmmaking Project</h3>
             <p class="text-muted">Built with HTML, CSS and JavaScript</p>
           </div>
         </div>
       </div>
+      <footer class="container">
+          <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+            <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together!</p>
+            </div>
+            <div>
+             <a href="/contact.html" class="btn btn-branding-outline" title="contact me">Contact me</a>
+            </div>
+          </div>
+
+        <div class="d-flex justify-content-center mb-5">
+        <a href="m.damas@gmail.com" class="email-link" title="Email Melissa">m.damas@gmail.com</a>
+        </div>
+        <div class="social-links d-flex justify-content-center mb-5">
+          <a href="https://www.Instagram.com/themelissadamas" target="_blank" title="Instagram Profile">
+            <i class="fa-brands fa-instagram"  style="color: #ac86c6;"></i>
+          </a>
+          <a href="https://github.com/m-damas" target="_blank" title="GitHub Profile" >
+            <i class="fa-brands fa-github" style="color: #ac86c6;"></i>
+          </a>
+          <a href="https://www.facebook.com/m" target="_blank" title="Facebook Profile" >
+             <i class="fa-brands fa-facebook" style="color: #ac86c6;"></i>
+          </a>  
+        </div>
+        <p class="text-center">
+          👌 This project was coded by Melissa Damas. 
+          <a href="https://github.com/m-damas/Portfolio-project" target="_blank">
+           Open-sourced
+          </a> 
+        </p>
+      </footer>
     </div>
   </body>
 </html>

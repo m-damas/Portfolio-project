@@ -36,7 +36,7 @@ p {
 }
 .hero {
   text-align: center;
-  padding: 150px 20px;
+  padding: 80px 20px;
   background: var(--background-primary);
 }
 .hero p {
@@ -64,7 +64,7 @@ p {
   padding: 120px 50px;
 }
 .content-container {
-  padding: 150px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -89,7 +89,7 @@ p {
   border-radius: 7px;
   max-width: 300px;
 }
-.yougurt-image {
+.yogurt-image {
   max-width: 65%;
   border-radius: 4px;
 }
@@ -106,6 +106,8 @@ p {
 }
 nav {
   padding: 15px 0;
+
+  top: 0;
 }
 nav li {
   display: inline;
@@ -165,9 +167,6 @@ footer .contact-box p {
   }
   h4 {
     font-size: 20px;
-  }
-  .hero {
-    padding: 80px 20px;
   }
   .project-description {
     padding: 0;
