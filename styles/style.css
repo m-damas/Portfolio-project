@@ -183,4 +183,8 @@ footer .contact-page-footer {
     text-align: center;
     padding: 0;
   }
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 }
